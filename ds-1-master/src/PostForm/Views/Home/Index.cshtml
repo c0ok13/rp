@@ -1,0 +1,19 @@
+﻿<h4 style="color:purple">
+    <b>JobText:</b>  @ViewBag.JobText <br />
+</h4>
+<hr />
+<h3><b>Insert text about current job</b></h3>
+ 
+<form action="/Home/Create" method="post">
+    <table>
+        <tr>
+        </tr>
+        <tr>
+            <td>Enter JobText: </td>
+            <td><input type="text" name="JobText"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Submit Form" /></td>
+        </tr>
+    </table>
+</form>
